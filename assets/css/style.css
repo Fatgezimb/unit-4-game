@@ -1,11 +1,24 @@
-
 /* Box model fix before any other CSS can be added */
 html {
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
+body {
+  padding-bottom: 120px;
+}
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 114px;
+}
 
-  
+.fa-gem:hover {
+  opacity: 0.5;
+}
